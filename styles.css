@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #263138;
+}
+header {
+  background-color: #ff9a6c;
+  padding: 24px 80px 24px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 32px;
+  font-weight: 600;
+}
+
+#inicio {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 24px 80px 128px 80px;
+  position: relative;
+}
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+.paragrafo {
+  line-height: 150%;
+  margin-bottom: 32px;
+}
+.botao {
+  background-color: #ff725e;
+  padding: 16px 32px;
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.botao-transparente {
+  background-color: transparent;
+  color: #ff725e;
+  padding: 16px 32px;
+  text-underline-offset: 4px;
+}
+.absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+}
+#clinica {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px;
+}
+#clinica li {
+  margin-bottom: 16px;
+  margin-left: 32px;
+}
+
+#farmacia {
+  padding: 64px 80px;
+  text-align: center;
+}
+
+#farmacia img {
+  margin: 64px auto;
+}
+
+#farmacia .paragrafo {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+#duvidas {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px;
+}
