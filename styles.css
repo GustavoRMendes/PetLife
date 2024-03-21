@@ -41,7 +41,7 @@ h2 {
 }
 .botao {
   background-color: #ff725e;
-  padding: 16px 32px;
+  padding: 12px 24px;
   color: #ffffff;
   border-radius: 8px;
   text-decoration: none;
@@ -50,7 +50,7 @@ h2 {
 .botao-transparente {
   background-color: transparent;
   color: #ff725e;
-  padding: 16px 32px;
+  padding: 6px 12px;
   text-underline-offset: 4px;
 }
 .absolute {
@@ -90,4 +90,27 @@ h2 {
   align-items: center;
   gap: 64px;
   padding: 64px 80px;
+}
+.duvida {
+  position: relative;
+}
+.duvida h3 {
+  border: 2px solid #ff725e;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 24px;
+}
+
+.duvida img {
+  position: absolute;
+  top: 32px;
+  right: 24px;
+}
+.duvida .paragrafo {
+  border-right: 1px solid #ff725e;
+  border-left: 1px solid #ff725e;
+  border-bottom: 1px solid #ff725e;
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+  padding: 24px;
 }
