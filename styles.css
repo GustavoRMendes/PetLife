@@ -114,3 +114,37 @@ h2 {
   margin-top: -8px;
   padding: 24px;
 }
+footer {
+  background-color: rgba(255, 152, 108, 0.25);
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 64px 80px;
+}
+
+footer img,
+footer .titulo {
+  font-weight: 600;
+  margin: 0 0px 24px 0px;
+  display: block;
+}
+footer p {
+  margin-bottom: 16px;
+  max-width: 350px;
+}
+footer a {
+  color: #263138;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+#copyright {
+  background-color: #263138;
+  text-align: center;
+  padding: 24px;
+  color: #ffffff;
+}
+
+#copyright a {
+  color: #ff9a6c;
+}
