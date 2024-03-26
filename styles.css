@@ -145,7 +145,8 @@ footer a {
   color: #263138;
   display: block;
   margin-bottom: 16px;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 #copyright {
   background-color: #263138;
@@ -156,4 +157,8 @@ footer a {
 
 #copyright a {
   color: #ff9a6c;
+}
+
+span {
+  color: black;
 }
